@@ -29,6 +29,8 @@ return {
     ["<C-S-j>"] = { function() require("smart-splits").resize_down() end, desc = "Resize split down" },
     ["<C-S-h>"] = { function() require("smart-splits").resize_left() end, desc = "Resize split left" },
     ["<C-S-l>"] = { function() require("smart-splits").resize_right() end, desc = "Resize split right" },
+
+    ["<leader> e"] = { function() vim.cmd("Neotree .") end },
   },
   t = {
     -- setting a mapping to false will disable it

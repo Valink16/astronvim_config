@@ -41,7 +41,5 @@ return {
     init = function()
       require("auto-dark-mode").init()
     end
-  }
-
-  -- TODO: Configure auto theme switching
+  },
 }
